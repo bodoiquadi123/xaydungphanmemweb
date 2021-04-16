@@ -13,24 +13,24 @@ License URL: http://creativecommons.org/licenses/by/3.0/
     Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, SonyEricsson, Motorola web design" />
     <script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
     <!-- bootstrap-css -->
-    <link rel="stylesheet" href="web/css/bootstrap.min.css" >
+    <link rel="stylesheet" href="public/web/css/bootstrap.min.css" >
     <!-- //bootstrap-css -->
     <!-- Custom CSS -->
-    <link href="web/css/style.css" rel='stylesheet' type='text/css' />
-    <link href="web/css/style-responsive.css" rel="stylesheet"/>
+    <link href="public/web/css/style.css" rel='stylesheet' type='text/css' />
+    <link href="public/web/css/style-responsive.css" rel="stylesheet"/>
     <!-- font CSS -->
     <link href='//fonts.googleapis.com/css?family=Roboto:400,100,100italic,300,300italic,400italic,500,500italic,700,700italic,900,900italic' rel='stylesheet' type='text/css'>
     <!-- font-awesome icons -->
-    <link rel="stylesheet" href="web/css/font.css" type="text/css"/>
-    <link href="web/css/font-awesome.css" rel="stylesheet"> 
-    <link rel="stylesheet" href="web/css/morris.css" type="text/css"/>
+    <link rel="stylesheet" href="public/web/css/font.css" type="text/css"/>
+    <link href="public/web/css/font-awesome.css" rel="stylesheet"> 
+    <link rel="stylesheet" href="public/web/css/morris.css" type="text/css"/>
     <!-- calendar -->
-    <link rel="stylesheet" href="web/css/monthly.css">
+    <link rel="stylesheet" href="public/web/css/monthly.css">
     <!-- //calendar -->
     <!-- //font-awesome icons -->
-    <script src="web/js/jquery2.0.3.min.js"></script>
-    <script src="web/js/raphael-min.js"></script>
-    <script src="web/js/morris.js"></script>
+    <script src="public/web/js/jquery2.0.3.min.js"></script>
+    <script src="public/web/js/raphael-min.js"></script>
+    <script src="public/web/js/morris.js"></script>
 </head>
 <body>
     <section id="container">
@@ -123,13 +123,13 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 </section>
 <!--main content end-->
 </section>
-<script src="web/js/bootstrap.js"></script>
-<script src="web/js/jquery.dcjqaccordion.2.7.js"></script>
-<script src="web/js/scripts.js"></script>
-<script src="web/js/jquery.slimscroll.js"></script>
-<script src="web/js/jquery.nicescroll.js"></script>
-<!--[if lte IE 8]><script language="javascript" type="text/javascript" src="web/js/flot-chart/excanvas.min.js"></script><![endif]-->
-<script src="web/js/jquery.scrollTo.js"></script>
+<script src="public/web/js/bootstrap.js"></script>
+<script src="public/web/js/jquery.dcjqaccordion.2.7.js"></script>
+<script src="public/web/js/scripts.js"></script>
+<script src="public/web/js/jquery.slimscroll.js"></script>
+<script src="public/web/js/jquery.nicescroll.js"></script>
+<!--[if lte IE 8]><script language="javascript" type="text/javascript" src="public/web/js/flot-chart/excanvas.min.js"></script><![endif]-->
+<script src="public/web/js/jquery.scrollTo.js"></script>
 <!-- morris JavaScript -->	
 <script>
    $(document).ready(function() {
@@ -187,7 +187,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
    });
 </script>
 <!-- calendar -->
-<script type="text/javascript" src="web/js/monthly.js"></script>
+<script type="text/javascript" src="public/web/js/monthly.js"></script>
 <script type="text/javascript">
   $(window).load( function() {
 

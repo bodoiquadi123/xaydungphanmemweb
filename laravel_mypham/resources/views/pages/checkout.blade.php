@@ -70,7 +70,7 @@
 									@foreach($product_cart as $cart)
 									<!--  one item	 -->
 									<div class="media">
-										<img width="25%" src="source/image/product/{{$cart['item']['image']}}" alt="" class="pull-left">
+										<img width="25%" src="public/source/image/product/{{$cart['item']['image']}}" alt="" class="pull-left">
 										<div class="media-body">
 											<p class="font-large">{{$cart['item']['name']}}</p>
 											<span class="color-gray your-order-info">Giá: {{number_format($cart['price'])}}</span>

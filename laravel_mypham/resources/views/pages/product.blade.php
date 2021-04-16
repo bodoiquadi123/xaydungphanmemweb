@@ -28,7 +28,7 @@
 							@endif
 						</div>
 						<div class="single-item-header">
-							<img src="source/image/product/{{$product_info -> image}}" alt="">
+							<img src="public/source/image/product/{{$product_info -> image}}" alt="">
 						</div>
 					</div>
 					<div class="col-sm-8">
@@ -87,7 +87,7 @@
 						<div class="beta-sales beta-lists">
 							@foreach($product_tt as $product_tuongtu)
 							<div class="media beta-sales-item">
-								<a class="pull-left" href="product.html"><img src="source/image/product/{{$product_tuongtu -> image}}" alt=""></a>
+								<a class="pull-left" href="product.html"><img src="public/source/image/product/{{$product_tuongtu -> image}}" alt=""></a>
 								<div class="media-body">
 									{{$product_tuongtu -> name}}
 									@if($product_tuongtu -> promotion_price == 0)

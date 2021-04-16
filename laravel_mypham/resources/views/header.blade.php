@@ -1,11 +1,5 @@
 <div class="header-top">
 	<div class="container">
-		<div class="pull-left auto-width-left">
-			<ul class="top-menu menu-beta l-inline">
-				<li><a href=""><i class="fa fa-home"></i> 90-92 Lê Thị Riêng, Bến Thành, Quận 1</a></li>
-				<li><a href=""><i class="fa fa-phone"></i> 0163 296 7751</a></li>
-			</ul>
-		</div>
 		<div class="pull-right auto-width-right">
 			<ul class="top-details menu-beta l-inline">
 				@if(Auth::check())
@@ -23,7 +17,7 @@
 <div class="header-body">
 	<div class="container beta-relative">
 		<div class="pull-left">
-			<a href="index.html" id="logo"><img src="source/assets/dest/images/logo-cake.png" width="200px" alt=""></a>
+			<a href="index.html" id="logo"><img src="public/source/assets/dest/images/logo-cake.png" width="200px" alt=""></a>
 		</div>
 		<div class="pull-right beta-components space-left ov">
 			<div class="space10">&nbsp;</div>
@@ -49,7 +43,7 @@
 						<div class="cart-item">
 							<a href="{{route('dellcart',$product['item']['id'])}}" class="cart-item-delete"><i class="fa fa-times"></i></a>
 							<div class="media">
-								<a class="pull-left" href="#"><img src="source/image/product/{{$product['item']['image']}}" alt=""></a>
+								<a class="pull-left" href="#"><img src="public/source/image/product/{{$product['item']['image']}}" alt=""></a>
 								<div class="media-body">
 									<span class="cart-item-title">{{$product['item']['name']}}</span>
 									<span class="cart-item-amount">

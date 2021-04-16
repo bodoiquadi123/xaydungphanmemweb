@@ -88,7 +88,8 @@ class page_controller extends Controller
 
     public function getSearch(Request $req)
     {
-        $product = product :: where ('name','like','%'.$req -> key.'%')->orwhere('unit_price',$req -> key)->paginate(8);
+        $product = product :: where ('name','like','%'.$req -> key.'%')->orwhere('unit_price',$req -> key)-> paginate(4, ['*'], 'search');
+        
         return view('pages.search',compact('product'));
     }
 
@@ -148,7 +149,7 @@ class page_controller extends Controller
                 'pw'=>'required|min:3|max:20',
                 'fullname' => 'required', 
                 're_pw' => 'required|same:pw',
-                'phone' => 'required|integer',
+                'phone' => 'required|numeric|digits:10',
             ],
             [
                 'email.required' => 'Vui lòng nhập email',
@@ -156,7 +157,8 @@ class page_controller extends Controller
                 'email.unique' => 'Email đã có người sử dụng',
                 'pw.required' => 'Vui lòng nhập password',
                 'phone.required' => 'Vui lòng nhập số điện thoại',
-                'phone.integer' => 'Nhập sai số điện thoại',
+                'phone.numeric' => 'Nhập sai số điện thoại',
+                'phone.digits' => 'Số điện thoại phải đủ 10 số',
                 'pw.min' => 'Vui lòng nhập password > 3 ký tự',
                 'pw.max' => 'Vui lòng nhập password < 20 ký tự',
                 'fullname.required' => 'Vui lòng nhập tên',

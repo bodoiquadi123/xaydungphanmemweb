@@ -42,7 +42,7 @@
 											@endif
 										</div>
 										<div class="single-item-header">
-											<a href="{{route('product_info',$type -> id)}}"><img src="source/image/product/{{$type->image}}" alt="" height="250px" width = "250px"></a>
+											<a href="{{route('product_info',$type -> id)}}"><img src="public/source/image/product/{{$type->image}}" alt="" height="250px" width = "250px"></a>
 										</div>
 										<div class="single-item-body">
 										<p class="single-item-title">{{$type -> name}}</p>
@@ -87,7 +87,7 @@
 											@endif
 										</div>
 										<div class="single-item-header">
-											<a href="product.html"><img src="source/image/product/{{$dif_pro->image}}" alt="" height="250px" ></a>
+											<a href="product.html"><img src="public/source/image/product/{{$dif_pro->image}}" alt="" height="250px" ></a>
 										</div>
 										<div class="single-item-body">
 										<p class="single-item-title">{{$dif_pro -> name}}</p>

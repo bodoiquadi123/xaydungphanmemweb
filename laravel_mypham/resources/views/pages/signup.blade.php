@@ -35,22 +35,22 @@
 					
 					<div class="form-block">
 						<label for="email">Email address*</label>
-						<input type="email" id="email" required name="email">
+						<input type="email" id="email" value="binhle@gmail.com" required name="email">
 					</div>
 
 					<div class="form-block">
 						<label for="your_last_name">Fullname*</label>
-						<input type="text" id="your_last_name" required name="fullname">
+						<input type="text" id="your_last_name" value="BinhDepTrai" required name="fullname">
 					</div>
 
 					<div class="form-block">
 						<label for="adress">Address*</label>
-						<input type="text" id="adress" value="Street Address" required name="address">
+						<input type="text" id="adress" value="180 Cao Lỗ" required name="address">
 					</div>
 
 					<div class="form-block">
 						<label for="phone">Phone*</label>
-						<input type="text" id="phone" required name="phone">
+						<input type="text" id="phone" value="0941690340" required name="phone">
 					</div>
 					<div class="form-block">
 						<label for="password">Password*</label>

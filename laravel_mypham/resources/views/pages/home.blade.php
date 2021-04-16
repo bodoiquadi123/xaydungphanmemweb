@@ -10,7 +10,7 @@
 					<!-- THE FIRST SLIDE -->
 					<li data-transition="boxfade" data-slotamount="20" class="active-revslide" style="width: 100%; height: 100%; overflow: hidden; z-index: 18; visibility: hidden; opacity: 0;">
 						<div class="slotholder" style="width:100%;height:100%;" data-duration="undefined" data-zoomstart="undefined" data-zoomend="undefined" data-rotationstart="undefined" data-rotationend="undefined" data-ease="undefined" data-bgpositionend="undefined" data-bgposition="undefined" data-kenburns="undefined" data-easeme="undefined" data-bgfit="undefined" data-bgfitend="undefined" data-owidth="undefined" data-oheight="undefined">
-							<div class="tp-bgimg defaultimg" data-lazyload="undefined" data-bgfit="cover" data-bgposition="center center" data-bgrepeat="no-repeat" data-lazydone="undefined" src="source/image/slide/{{$slider -> image}}" data-src="source/image/slide/{{$slider -> image}}" style="background-color: rgba(0, 0, 0, 0); background-repeat: no-repeat; background-image: url('source/image/slide/{{$slider -> image}}'); background-size: cover; background-position: center center; width: 100%; height: 100%; opacity: 1; visibility: inherit;">
+							<div class="tp-bgimg defaultimg" data-lazyload="undefined" data-bgfit="cover" data-bgposition="center center" data-bgrepeat="no-repeat" data-lazydone="undefined" src="public/source/image/slide/{{$slider -> image}}" data-src="public/source/image/slide/{{$slider -> image}}" style="background-color: rgba(0, 0, 0, 0); background-repeat: no-repeat; background-image: url('public/source/image/slide/{{$slider -> image}}'); background-size: cover; background-position: center center; width: 100%; height: 100%; opacity: 1; visibility: inherit;">
 							</div>
 						</div>
 					</li>
@@ -45,7 +45,7 @@
 											@endif
 										</div>
 										<div class="single-item-header">
-											<a href="{{route('product_info',$new_prod -> id)}}"><img src="source/image/product/{{$new_prod -> image}}" alt="" height="250px"></a>
+											<a href="{{route('product_info',$new_prod -> id)}}"><img src="public/source/image/product/{{$new_prod -> image}}" alt="" height="250px"></a>
 										</div>
 										<div class="single-item-body">
 											<p class="single-item-title">{{$new_prod -> name}}</p>
@@ -89,7 +89,7 @@
 										@endif
 									</div>
 									<div class="single-item-header">
-										<a href="{{route('product_info',$sale_prod -> id)}}"><img src="source/image/product/{{$sale_prod -> image}}" alt="" height="250px"></a>
+										<a href="{{route('product_info',$sale_prod -> id)}}"><img src="public/source/image/product/{{$sale_prod -> image}}" alt="" height="250px"></a>
 									</div>
 									<div class="single-item-body">
 										<p class="single-item-title">{{$sale_prod -> name}}</p>

@@ -9,7 +9,7 @@
 					<div class="beta-products-list">
 						<h4>Tìm kiếm</h4>
 						<div class="beta-products-details">
-							<p class="pull-left">Tìm thấy {{count($product)}} sản phẩm</p>
+							<p class="pull-left">Tìm thấy {{$product->total()}} sản phẩm</p>
 							<div class="clearfix"></div>
 						</div>
 						<div class="row">
@@ -22,7 +22,7 @@
 										@endif
 									</div>
 									<div class="single-item-header">
-										<a href="{{route('product_info',$new_prod -> id)}}"><img src="source/image/product/{{$new_prod -> image}}" alt="" height="250px"></a>
+										<a href="{{route('product_info',$new_prod -> id)}}"><img src="public/source/image/product/{{$new_prod -> image}}" alt="" height="250px"></a>
 									</div>
 									<div class="single-item-body">
 										<p class="single-item-title">{{$new_prod -> name}}</p>
@@ -41,11 +41,10 @@
 										<div class="clearfix"></div>
 									</div>
 								</div>
-
 							</div>
 							@endforeach
-							
-						</div>	
+						</div>
+						<div class="row">{{$product-> links()}} </div>
 						<div class="space10">&nbsp;</div>
 					</div> <!-- .beta-products-list -->
 					<div class="space50">&nbsp;</div>
